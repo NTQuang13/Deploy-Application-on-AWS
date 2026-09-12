@@ -17,6 +17,9 @@
 
 	<properties>
 		<java.version>11</java.version>
+    	<sonar.projectKey>NTQuang13_Deploy-Application-on-AWS</sonar.projectKey>
+    	<sonar.organization>ntquang13</sonar.organization>
+    	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<dependencies>
