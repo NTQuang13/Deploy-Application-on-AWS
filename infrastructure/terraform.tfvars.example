@@ -1,0 +1,17 @@
+environment        = "dev"
+aws_region         = "us-east-1"
+vpc_cidr           = "192.168.0.0/16"
+public_subnets     = ["192.168.1.0/24", "192.168.2.0/24"]
+private_subnets    = ["192.168.3.0/24", "192.168.4.0/24"]
+db_name            = "UserDB"
+db_username        = "admin"
+db_password        = "your-secure-password"
+key_name           = "your-key-pair-name"
+
+harbor_registry    = "harbor.example.com"
+harbor_project     = "java-login-app"
+harbor_image       = "dptweb"
+harbor_image_tag   = "1.0"
+harbor_username    = "robot$java-login-app+deploy"
+harbor_password    = "your-harbor-robot-token"
+harbor_insecure    = false
